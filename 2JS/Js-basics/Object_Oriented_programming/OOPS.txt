@@ -1,0 +1,9 @@
+Working with Objects.
+  1. Property = variables
+  2. Methods = functions
+
+OOPS:
+# Encapsulation
+# Abstraction
+# Inheritance
+# Polymorphism
