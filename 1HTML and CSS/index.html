@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+
+  <style media="screen">
+    div {
+      padding-left: 300px;
+      padding-top: 20px;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    body {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1><strong>Fill The Form Below:</strong></h1>
+    <form action="webdev.html" method="post">
+      <br>
+      Name: <input type="text" name='Name'>
+      <br><br>
+      Password: <input type="password" name="Password">
+
+      <br><br>
+      <span>
+        <select name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+      </span>
+
+      <br><br>
+      Student: <input type="radio" name="radbn">
+      Teacher: <input type="radio" name="radbn">
+      Other: <input type="radio" name="radbn">
+
+      <br><br>
+      Write about yourself:
+      <br>
+      <textarea name="txt" rows="8" cols="80"></textarea>
+
+      <br><br>
+      <pre>          <input type="submit" value="Submit">           <input type='reset'  value="Reset"></pre>
+    </form>
+
+  </div>
+</body>
+
+</html>

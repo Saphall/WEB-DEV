@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JQuery try</title>
+  <script src="jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(window).ready(function() {
+
+      $('#focs').click(function() {
+        $('#input').focus();
+        $('#input').css('border', '3px solid red');
+        document.getElementById('txt').innerHTML = 'Changed The Inner HtMl!';
+      });
+
+      $('textarea').keypress(function() {
+        alert('key pressed');
+      });
+
+    });
+  </script>
+
+</head>
+
+<body>
+  <button type="button" id='focs'>Button</button>
+  <input type="text" id="input">
+  <br><br>
+  <div id="txt">This changes.</div>
+  <textarea rows="8" cols="80"></textarea>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+focus 
+click
+blur
+this
+hover 
+$('selector').hover(
+function(){
+}; //mouse on the element
+function(){
+}); //mouse outside the element 
+keys -keypress,keydown,keyup()
+mouse - mousedown,mouseup,mouseover,mouseenter,mouseleave,mousemove,onmouseout()
+toggle -hide and show
+dblclick -Double click
+submit 
