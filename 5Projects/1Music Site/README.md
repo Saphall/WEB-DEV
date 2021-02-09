@@ -1,1 +1,1 @@
-<img src = 'media/site.png' width = '80%'>
+<img src = 'media/site.png' width = '50%'>
