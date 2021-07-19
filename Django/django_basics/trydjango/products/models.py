@@ -6,4 +6,4 @@ class Product(models.Model):
     description = models.TextField(blank=True, null=True) 
     price = models.DecimalField(max_digits=1000,decimal_places=2)
     summary = models.TextField(blank=False,null=False)
-    featured = models.BooleanField() #This field is added after migrations, so , null=True, default=True
+    featured = models.BooleanField() #This field is added after migrations,So , null=True, default=True
