@@ -1,8 +1,10 @@
-# Django and Flask
+# Web Dev
 
-Web-Dev starting from HTML, CSS, JS to => Django and Flask.
+Web-Dev starting from HTML, CSS, JS to Django, Flask and more.
 
-### Important Links:
+<img src='https://www.evelogics.com/wp-content/uploads/2022/06/61be16afc2df9-1024x347.jpg' width='50%'>
+
+### Useful Links:
 
 1. <a href = 'https://docs.djangoproject.com/en/3.1/'>Django Documentation </a>
 
@@ -15,10 +17,5 @@ Web-Dev starting from HTML, CSS, JS to => Django and Flask.
 * <a href='https://github.com/Saphall/sahayog'>Sahayog</a>
 ---
 
-<img src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/123570517/original/b5bd3dc03a421a074ff943e89ce971303d26ea41/work-on-python-with-django-and-flask.png' width='50%'>
 
-### Repos:
 
-1. <a href ='https://github.com/django/django'>Django</a>
-
-2. <a href ='https://github.com/pallets/flask'>Flask</a>
